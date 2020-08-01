@@ -1,0 +1,158 @@
+<html>
+<head>
+    <script type="text/javascript" src="project.js">
+    </script>
+  
+    <link rel="stylesheet" type="text/css" href="project.css">
+
+</head>
+<body>
+	<div class="br">
+		<br>
+		<div class="topnav">
+			<img class="topnav-left" width="100px" height="50px"src="http://www.pngmart.com/files/10/Glossy-Apple-Logo-PNG-Image.png" style="position:relative;center:0px">
+			<h2 class="topnav-left font">Destination</h2>
+			<div class="topnav-right">
+				<a href="login.html"><b>LogIn</b></a>
+				<a href="signup.html"><b>SignUp</b></a>
+				<a href="Destination.html"><b>AboutUs</b></a>
+				<a href="survey.html"><b>Take a Survey</b></a>
+			</div>
+		</div>
+	
+<div class="container">
+	<div class="header">
+		<center><h2>Airlines Booking</h2></center>
+		<center><h4>Sign Up Page</h4></center>
+    </div>
+    
+	<form id="form" class="form">
+
+
+		<div class="form-control">
+			<label for="username">Email</label>
+			<input type="email" placeholder="Email" id="email" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		<div class="form-control">
+			<label for="username">Password</label>
+			<input type="password" placeholder="Password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="Password must contain atleast one number,one uppercase,one lowercase and atleat 6 or more characters"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+        </div>
+        
+        <div class="form-control">
+			<label for="username">Confirm Password</label>
+			<input type="password" placeholder="Confirm Password" id="password2"/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+		
+		<div class="form-control">
+			<label for="username">Full Name</label>
+			<input type="text" placeholder="username" id="username" pattern="^[a-z0-9_-].*?$" title="Username must not be blank and contain only letters, numbers and underscores."/>
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+
+		<div class="form-control">
+			<label for="username">Birthday</label>
+			<input type="date" placeholder="username" id="birthday" />
+			<i class="fas fa-check-circle"></i>
+			<i class="fas fa-exclamation-circle"></i>
+			<small>Error message</small>
+		</div>
+	 
+		
+		<fieldset>
+			<legend>Address Information:</legend>
+
+			<div class="form-control">
+				<label for="username">Street No.</label>
+				<input type="text" placeholder="street no." id="streetno" />
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Error message</small>
+			</div>
+	   
+			<div class="form-control">
+				<label for="username">Street Name.</label>
+				<input type="text" placeholder="street name." id="streetname" />
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Error message</small>
+			</div>
+
+			<div class="form-control">
+				<label for="username">Complement/Apartment No.</label>
+				<input type="text" placeholder="complement/apartment no." id="complement" />
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">City</label>
+				<input type="text" placeholder="city" id="city" />
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">Province/State</label>
+				<input type="text" placeholder="province/state" id="streetname" />
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">Country</label>
+				<input type="text" placeholder="country" id="country" />
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Error message</small>
+			</div>
+			<div class="form-control">
+				<label for="username">Postal Code/ZIP</label>
+				<input type="text" placeholder="postal code/ZIP" id="streetname" />
+				<i class="fas fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small>Error message</small>
+			</div>
+
+
+
+
+	  
+	</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<button onclick="signupvalidation()">Submit</button>
+        <div id="dont_have_an_account">
+			<h5>
+			 Already have an account? <a href="login.html" class="login_link" align="center">Login</a> 
+	
+
+
+	</form>
+</div>
+<h5>Inspired by <a href="https://designseer.com/wp-content/uploads/2014/01/dropdown-login.jpg">@https://designseer.com/css-html-login-form-templates/</a></h5>
+</body>
+</html>
